@@ -115,8 +115,8 @@ In the bresenham_prune_path() function, all waypoints returned from the A* are c
 Below is a comparison of the paths obtained without any pruning, pruning with collinearity check and finally pruning with Bresenham's algorithm. The number of waypoints for each approach are shown in the table below.
 
 ![Quad Image](./images/no_pruning.png)
-![Quad Image](./images/collinearity_check_1.png)
-![Quad Image](./images/bresenham_check_1.png)
+![Quad Image](./images/collinearity_check.png)
+![Quad Image](./images/bresenham_check.png)
 
 **Pruning method** | **Path length** | **# of waypoints** | **Distance per waypoint**
 --- | --- | --- | ---
