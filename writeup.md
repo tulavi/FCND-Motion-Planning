@@ -129,8 +129,8 @@ Bresenham | 8 | 45.5
 #### 1. Does it work?
 For my implementation, I am using a 20m target_altitude and a 5m safety distance to avoid collisions. I also modified the code to be able to land or take off from buildings below the target_altitude of the drone. Below is an example of my execution process.
 
--Step 1: fly to a desired goal location manually. Note the longitude, latitude of this position and hard-code these in motion_planning.py
--Step 2: Restart the simulator. Fly to the desired start position
+-Step 1: fly to a desired goal location manually. Note the longitude, latitude of this position and hard-code these in motion_planning.py.
+-Step 2: Restart the simulator. Fly to the desired start position.
 -Step 3: Run motion_planning.py and see the drone fly!
 
 In my final implementation, I have used a grid based approach. I found this to be faster than a graph based approach. I use a modified A* approach that includes diagonal movements in the grid to make the algorithm more efficient. I use Bresenham's line tracing to prune the path generated from A* search. The code can be tested by setting goal_lat = 37.795890, goal_lon = -122.396510, goal_height = 0.0 to fly the drone near the intersection of Davis and Clay.
