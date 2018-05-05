@@ -118,14 +118,11 @@ Below is a comparison of the paths obtained without any pruning, pruning with co
 ![Quad Image](./images/collinearity_check.png)
 ![Quad Image](./images/bresenham_check.png)
 
-**Pruning method** | **Path length** | **# of waypoints** | **Distance per waypoint**
---- | --- | --- | ---
+**Pruning method** | **# of waypoints** | **Distance covered per waypoint**
+--- | --- | ---
 None | 359 | 1.01
---- | --- | --- | ---
 Collinearity | 43 | 8.46
---- | --- | --- | ---
 Bresenham | 8 | 45.5
---- | --- | --- | ---
 
 
 ### Execute the flight
